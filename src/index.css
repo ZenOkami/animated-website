@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@body {
+    @font-face {
+        font-family: 'circular-web';
+        src: url('/fonts/circularweb-book.woff2') format('woff2')
+    }
+}
+
 @layer base {
     @font-face {
         font-family: 'circular-web';
